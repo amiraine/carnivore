@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.navs{
+  list-style-type: none;
+  padding: 0;
+}
+.navs li{
+  position: relative;
+  width: inherit;
+  display: block;
+  box-sizing: border-box;
+}
+.navs li.left{
+  float: left;
+}
+.navs li.right{
+  float: right;
+}
+.navs li div{
+  letter-spacing: 3px;
+}
+.nav-text{
+  position: absolute;
+  z-index: 2;
+}
+.left img{
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 48%);
+clip-path: polygon(0 0, 0 100%, 100% 48%);
+}
+.right img{
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 0 48%);
+clip-path: polygon(100% 0, 100% 100%, 0 48%);
+}
+/*animations*/
+
+.navs div.back{
+  transform: rotateX(90deg);
+}
+.navs div.front{
+  position: absolute;
+}
+.navs li:hover div.front{
+  animation: spin .2s ease-in forwards;
+}
+.navs li:hover div.back{
+  animation: spin .2s .2s ease-out forwards reverse;
+}
+@keyframes spin {
+  0%{
+    transform: rotateX(0deg);
+  }
+  100%{
+    transform: rotateX(90deg);
+  }
+}
