@@ -64,6 +64,7 @@ svg:hover{
   display: block;
   text-align: center;
   z-index: 2;
+  padding-top: 5px;
 }
 /*placement*/
 .socials{

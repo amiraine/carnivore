@@ -1,0 +1,14 @@
+.hero-text{
+  z-index: 2;
+  text-align: center;
+  font-family: 'Oswald', serif;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: white;
+  size: inherit;
+  font-size: 4em;
+  position: absolute;
+  top:35%;
+  left: 15%;
+  text-shadow: 1px 1px 5px darkgrey;
+}
