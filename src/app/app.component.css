@@ -1,0 +1,136 @@
+.header{
+  font-size: calc(100% + 2em);
+  font-family: 'Goblin One', sans-serif;
+  color: white;
+  background-color: black;
+  text-transform: uppercase;
+  text-align: center;
+  height: 5vh;
+}
+.header:hover{
+  font-family: 'Nosifer',sans-serif;
+  font-size: calc(100% + 2.3cd em);
+  color: red;
+  letter-spacing: 3px;
+}
+.navs{
+  list-style-type: none;
+  padding: 0;
+  z-index: 2;
+}
+.navs li{
+  position: relative;
+  width: inherit;
+  display: block;
+  box-sizing: border-box;
+}
+.navs li img{
+  max-width: 30vw;
+}
+.navs li.left{
+  float: left;
+}
+.navs li.right{
+  float: right;
+}
+.navs li div{
+  letter-spacing: 3px;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: calc(100% + 1.3em);
+}
+.left img{
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 48%);
+clip-path: polygon(0 0, 0 100%, 100% 48%);
+}
+.right img{
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 0 48%);
+clip-path: polygon(100% 0, 100% 100%, 0 48%);
+}
+svg{
+  max-width: 32px;
+  max-height: 32px;
+  fill: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+svg:hover{
+  fill: red;
+}
+.socials{
+  background-color: black;
+  width: 200px;
+  border-radius: 5px 5px 0 0;
+  display: block;
+  text-align: center;
+  z-index: 2;
+}
+/*placement*/
+.socials{
+  position: fixed;
+  bottom: 0;
+  right: 45vw;
+}
+li:nth-child(1){
+  position: absolute;
+  top: 5vh;
+  left: 0;
+}
+li:nth-child(2){
+  position: absolute;
+  top: 25vh;
+  right: 0;
+}
+li:nth-child(3){
+  position: absolute;
+  top: 40vh;
+  left: -30vw;
+}
+li:nth-child(4){
+  position: absolute;
+  top: 30vh;
+  right: 0vw;
+}
+li:nth-child(1) div.nav-text{
+  position: absolute;
+  top: 8vh;
+  left: 1vw;
+}
+li:nth-child(2) div.nav-text{
+  position: absolute;
+  top: 8vh;
+  right: 1vw;
+}
+li:nth-child(3) div.nav-text{
+  position: fixed;
+  top: 8vh;
+  left: 1vw;
+}
+li:nth-child(4) div.nav-text{
+  position: absolute;
+  top: 8vh;
+  right: 1vw;
+}
+
+/*animations*/
+
+.navs div.back{
+  transform: rotateX(90deg);
+}
+.navs div.front{
+  position: absolute;
+}
+.navs li:hover div.front{
+  animation: spin .2s ease-in forwards;
+}
+.navs li:hover div.back{
+  animation: spin .2s .2s ease-out forwards reverse;
+}
+@keyframes spin {
+  0%{
+    transform: rotateX(0deg);
+  }
+  100%{
+    transform: rotateX(90deg);
+  }
+}
