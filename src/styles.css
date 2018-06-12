@@ -2,6 +2,21 @@
   margin: 0;
   padding: 0;
 }
+.header{
+  font-size: calc(100% + 2em);
+  font-family: 'Goblin One', sans-serif;
+  color: white;
+  background-color: black;
+  text-transform: uppercase;
+  text-align: center;
+  height: 5vh;
+}
+.header:hover{
+  font-family: 'Nosifer',sans-serif;
+  font-size: calc(100% + 2.1em);
+  color: red;
+  letter-spacing: 3px;
+}
 .navs{
   list-style-type: none;
   padding: 0;
@@ -12,6 +27,9 @@
   display: block;
   box-sizing: border-box;
 }
+.navs li img{
+  max-width: 30vw;
+}
 .navs li.left{
   float: left;
 }
@@ -20,10 +38,9 @@
 }
 .navs li div{
   letter-spacing: 3px;
-}
-.nav-text{
-  position: absolute;
-  z-index: 2;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: calc(100% + 1.5em);
 }
 .left img{
   -webkit-clip-path: polygon(0 0, 0 100%, 100% 48%);
@@ -32,6 +49,47 @@ clip-path: polygon(0 0, 0 100%, 100% 48%);
 .right img{
   -webkit-clip-path: polygon(100% 0, 100% 100%, 0 48%);
 clip-path: polygon(100% 0, 100% 100%, 0 48%);
+}
+/*placement*/
+li:nth-child(1){
+  position: fixed;
+  top: 10vh;
+  left: 0;
+}
+li:nth-child(1) div.nav-text{
+  position: absolute;
+  top: 8vh;
+  left: 1vw;
+}
+li:nth-child(2){
+  position:fixed;
+  top: 30vh;
+  right: 0;
+}
+li:nth-child(2) div.nav-text{
+  position: absolute;
+  top: 8vh;
+  right: 1vw;
+}
+li:nth-child(3){
+  position: fixed;
+  top:45vh;
+  left:0;
+}
+li:nth-child(3) div.nav-text{
+  position: absolute;
+  top: 8vh;
+  left: 1vw;
+}
+li:nth-child(4){
+  position: absolute;
+  top:65vh;
+  right: 0;
+}
+li:nth-child(4) div.nav-text{
+  position: fixed;
+  top: 8vh;
+  right: 1vw;
 }
 /*animations*/
 
