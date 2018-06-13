@@ -1,11 +1,12 @@
 .grid{
   display: grid;
-  grid-template: repeat(3, 300px) / repeat(3, 300px);
+  grid-template: repeat(3, 300px) / repeat(4, 300px);
   grid-auto-rows: 300px;
   margin-left: 25vw;
   margin-right: 25vw;
   position: absolute;
   z-index: -2;
+  grid-auto-flow: row;
 }
 h3{
   font-family: 'Oswald', sans-serif;

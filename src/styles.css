@@ -18,13 +18,10 @@ a:visited{
 }
 .hero-banner{
   width: 100%;
-  background-image: url('./assets/faith.jpg');
+  background-image: url('./assets/demobaza1.jpg');
   height: 670px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   margin: 0;
-}
-.header{
-  background-image: url('./assets/cart.png');
 }

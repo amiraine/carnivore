@@ -9,7 +9,7 @@
 }
 .header:hover{
   font-family: 'Nosifer',sans-serif;
-  font-size: calc(100% + 2.3cd em);
+  font-size: calc(100% + 2.3 em);
   color: red;
   letter-spacing: 3px;
 }
@@ -25,7 +25,7 @@
   box-sizing: border-box;
 }
 .navs li img{
-  max-width: 30vw;
+  max-width: 400px;
 }
 .navs li.left{
   float: left;
@@ -37,7 +37,7 @@
   letter-spacing: 3px;
   font-family: 'Oswald', sans-serif;
   color: white;
-  font-size: calc(100% + 1.3em);
+  font-size: calc(100% + 1.2em);
 }
 .left img{
   -webkit-clip-path: polygon(0 0, 0 100%, 100% 48%);
@@ -73,43 +73,43 @@ svg:hover{
   right: 45vw;
 }
 li:nth-child(1){
-  position: absolute;
-  top: 5vh;
+  position: fixed;
+  top: 100px;
   left: 0;
 }
 li:nth-child(2){
-  position: absolute;
-  top: 25vh;
+  position: fixed;
+  top: 250px;
   right: 0;
 }
 li:nth-child(3){
-  position: absolute;
-  top: 40vh;
-  left: -30vw;
+  position: fixed;
+  top: 500px;
+  left: -400px;
 }
 li:nth-child(4){
-  position: absolute;
-  top: 30vh;
-  right: 0vw;
+  position: fixed;
+  top: 650px;
+  right: -400px;
 }
 li:nth-child(1) div.nav-text{
-  position: absolute;
-  top: 8vh;
+  position: fixed;
+  top: 75px;
   left: 1vw;
 }
 li:nth-child(2) div.nav-text{
-  position: absolute;
-  top: 8vh;
+  position: fixed;
+  top: 75px;
   right: 1vw;
 }
 li:nth-child(3) div.nav-text{
   position: fixed;
-  top: 8vh;
+  top: 75px;
   left: 1vw;
 }
 li:nth-child(4) div.nav-text{
-  position: absolute;
-  top: 8vh;
+  position: fixed;
+  top: 75px;
   right: 1vw;
 }
 
