@@ -1,27 +1,37 @@
-# Carnivore
+# Carnivore Shoes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+#### A sample website for a fictional shoe brand for Epicodus
 
-## Development server
+#### By **Ami Cooper**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Description
+A website built in Angular 2 for a fictional shoe brand meant to experiment with CSS animations in tandem with responsive elements.
 
-## Code scaffolding
+## Reach goals for this project (these bullet points will be moved up into the Description section as/if they are completed)
+  * fix all bugs
+  * switch to SASS instead of vanilla CSS
+  * add more animations
+  * Create mobile interface
+  * add more object properties and a way to filter them in the shop
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Setup/Installation Requirements (for users)
+1. Clone from GitHub repository [https://github.com/amiraine/carnivore.git]
+2. Run `install -g @angular/cli@1.6.5`
+4. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Build
+## Known Bugs
+* Certain elements pop out of their alignment at specific screen sizes
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+## Technologies Used
+  * Angular 2.
+  * CSS3
 
-## Running unit tests
+## Support and contact details
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+_Email the authors with any questions, comments, or concerns._
 
-## Running end-to-end tests
+### License
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+*{This software is licensed under the MIT license}*
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Copyright (c) 2018 **_{Ami Cooper}_**
