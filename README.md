@@ -17,6 +17,7 @@ A website built in Angular 2 for a fictional shoe brand meant to experiment with
 ## Setup/Installation Requirements
 1. Clone from GitHub repository [https://github.com/amiraine/carnivore.git]
 2. Run `install -g @angular/cli@1.6.5`
+3. Run `npm install` inside of the root directory.
 4. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Known Bugs
